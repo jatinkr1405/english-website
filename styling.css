@@ -1,0 +1,176 @@
+body{
+    
+    font: Arial,Helvetica, sans-serif;
+}
+
+
+#container
+{
+    width: 1000px;
+    border: 1px solid green;
+    margin: 0 auto;
+    
+    
+}
+#header{
+    height:100px;
+    padding:10px 0 ;
+}
+#brand{
+    float: left;
+}
+h1 a{
+    color:aqua;
+    font-size: 40px;
+    font-weight= 100px;
+    font-family: cursive;
+    text-decoration: none;
+}
+#searchbox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding:20px 20px 0 20px;
+    text-decoration: none;
+    margin-top:  20px;
+
+}
+.text{
+    float: left;
+    background-color: snow;
+    width:200px;
+    
+    padding:5px;
+    font-size:15px;
+    color:orangered;
+    border: 1px solid #C8D03E;
+    
+    
+    
+}
+.submit{
+ 
+    float:right;
+    padding:5px;
+    font-weight:bold;
+    color:white;
+    background: yellow;
+    font-size:15px;
+}
+.clear{
+    clear: both;
+}
+#menu{
+    height: 70px;
+    background: linear-gradient(#F8F594, #D5D533);
+    padding:5px 0;
+}
+ul{
+    list-style: none;
+    
+}
+#menu ul li{
+    float:left;
+    padding:0 30px;
+    height: 20px;
+    border-right: 1px solid #5d12e7;
+    
+    
+}
+#menu ul li:last-child{
+    border-right: none;/*for removal of lst bar line in ther list*/
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:17px;
+    color:#5d12e7;
+    line-height: 30px;
+   -webkit-transition:  font-size 0.3s ease;/*for other internet services diffeent vsyntax is  used*/
+ -moz-transition:  font-size 0.3s ease;
+-o-transition:  font-size 0.3s ease;
+-ms-transition:  font-size 0.3s ease;
+    transition:  font-size 0.3s ease;
+}
+#menu ul li a:hover,#menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color:purple;
+        
+}
+#intro{
+    background-color: lightgreen;
+    
+    padding: 30px;
+    margin: 15px 0;
+    
+}
+#intro h3{
+    font-size: 45px;
+    font-weight: lighter;
+    
+}
+#intro p{
+    font-size: 20px;
+    color:lightcyan;
+    text-align: justify;
+}
+.sidebar{
+    height: 550px;
+    width: 400px;
+   border: 1px solid #BAF46F;
+
+    border-radius: 15PX;
+    padding: 10px 30px;
+    
+}
+.sidfebar h3{
+    color:#B314DB;
+    font-size:  30px;
+    
+}
+#leftsidebar ul{
+    padding-top: 8px;
+}
+#leftsidebar h3{
+    font-size: 30px;
+    color:  purple;
+    font-weight: bold;
+}
+#rightsidebar h3{
+    font-size:  30px;
+    color:  purple;
+    font-weight: bold;
+}
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left:  10px;  
+    font-size: 25px;
+    color: plum;
+    
+}
+#rightsidebar ul li{
+    padding-bottom:  20px;
+    padding-top:  20px;
+    padding-left: 70px;
+    font-size: 20px;
+    color: plum;
+}
+.sidebar ul li{
+    text-decoration: none;
+    font-size: 20px;
+    color: 5d12e7;
+}
+#leftsidebar{
+    float: left
+}
+#rightsidebar{
+    float: right;
+}
+.footer{
+    height: 60px;
+    background-color: light yellow;
+    padding:  10px 30px;
+    margin-top: 10px;
+}
